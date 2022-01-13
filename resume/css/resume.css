@@ -1,0 +1,209 @@
+body {
+  line-height: 2;
+}
+
+.container {
+  margin: auto;
+  width: 1110px;
+}
+
+.fc {
+  display: flex;
+}
+
+.container .right-side {
+  /*background-color: rgba(248, 247, 216, 0.7);*/
+  background-color: white;
+  padding: 40px;
+  width: 1903px;
+  height: 1110px;
+}
+
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.about .box .year_percentage {
+  width: 150px;
+}
+
+.about h2 {
+  padding-top: 10px;
+  font-size: 20pt;
+}
+
+.about h4 {
+  padding-bottom: 1px;
+}
+
+.year_percentage h5 {
+  padding-bottom: 1px;
+}
+
+.skill-1 {
+  padding-bottom: 20px;
+}
+
+.skill-2 {
+  padding-bottom: 20px;
+}
+
+.skill-3 {
+  padding-bottom: 20px;
+}
+
+.skill-4 {
+  padding-bottom: 20px;
+}
+
+.line-2 h2:after {
+  content: "";
+  display: block;
+  width: 750px;
+  height: 1px;
+  background: rgb(15, 15, 15);
+  margin-top: 2px;
+  opacity: 50%;
+}
+
+.line-2 h2:before {
+  content: "";
+  display: block;
+  width: 750px;
+  height: 1px;
+  background: rgb(15, 15, 15);
+  margin-top: 2px;
+  opacity: 50%;
+}
+
+/* left side*/
+
+.container .left-side {
+  /*background-color: rgba(64, 66, 187, 0.7);*/
+  background-color: rgb(30, 30, 133);
+
+  width: 650px;
+}
+
+.profile-text h1 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile-text p {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.left-info h2 {
+  background-color: rgb(8, 24, 75);
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.left-info h3 {
+  color: white;
+
+  padding-bottom: 0px;
+  padding-right: 51px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.left-info p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.progress {
+  color: grey;
+  margin-left: 11px;
+  height: 16px;
+  width: 20px;
+}
+
+p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress {
+  background-color: rgb(192, 192, 192);
+  width: 80%;
+}
+
+.software {
+  background-color: rgb(116, 194, 92);
+  color: white;
+  padding: 1%;
+  height: 11px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 0px;
+}
+
+.c-programming {
+  width: 60%;
+}
+
+.Html5 {
+  width: 60%;
+}
+
+.css {
+  width: 60%;
+}
+
+.MySQL {
+  width: 50%;
+}
+
+.js {
+  width: 50%;
+}
+
+.php{
+  
+width: 50%;
+
+}
+
+.title-2 {
+  padding-bottom: 20px;
+  text-align: left;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+.title-2 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.rating {
+  color: white;
+  display: block;
+  text-align: right;
+}
+
+.title {
+  color: blue;
+}
+.left-info .rating {
+  padding-bottom: 10px;
+}
